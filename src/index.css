@@ -1,0 +1,73 @@
+a{
+  text-decoration: none!important;
+  color: #2d8e38!important;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: 700;
+  color:rgb(97 218 251);
+  font-family: 'Roboto', sans-serif;
+}
+
+ul, li{
+  list-style: none;
+}
+
+#footer{
+  width: 100%;
+  height: 100px;
+  background-color: #cacaca;
+  position: absolute;
+  bottom: 0px;
+}
+
+.header{
+  display: flex;
+  padding: 10px 50px;
+  background-color: aliceblue;
+  justify-content: space-between;
+}
+
+.header .logorem{
+  max-width: 100px;
+  object-fit: contain;
+}
+
+.header .carritobag{
+  max-width: 30px;
+  object-fit: contain;
+}
+
+.header ul{
+  display: flex;
+  align-items: center;
+}
+
+.header ul li{
+  display: inline-flex;
+  padding: 10px;
+  align-items: center;
+}
+    
+
+body{
+  margin: 0px;
+}
+
+.producto{
+  max-width: 300px;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 3%;
+  margin: 2%;
+}
+  
+
+.true{
+  color:green;
+}
+
+.false{
+  color: red;
+}

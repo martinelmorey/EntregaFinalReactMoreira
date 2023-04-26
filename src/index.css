@@ -18,7 +18,6 @@ ul, li{
   width: 100%;
   height: 100px;
   background-color: #cacaca;
-  position: absolute;
   bottom: 0px;
 }
 
@@ -55,12 +54,17 @@ body{
   margin: 0px;
 }
 
+#productos{
+  display: flex;
+}
+
 .producto{
-  max-width: 300px;
+  width: 300px;
   text-align: center;
-  background-color: aliceblue;
+  background-color: white;
   padding: 3%;
   margin: 2%;
+  box-shadow: 2px 2px 20px #36363647;
 }
   
 

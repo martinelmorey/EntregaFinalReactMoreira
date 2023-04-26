@@ -1,12 +1,14 @@
-import Producto from "./producto"
+import Producto from "./Producto"
 
 
-const ItemListContainer = (props) => {
-  
-    return (<>
-      <Producto titulo="Short" precio={200} />
-      <Producto titulo="Remera" precio={120} />
-      </>
+const ItemListContainer = () => {
+
+
+    return (
+      <div id="productos">
+        <Producto titulo="Short" precio={200} />
+        <Producto titulo="Remera" precio={120} />
+      </div>
     )
   }
   

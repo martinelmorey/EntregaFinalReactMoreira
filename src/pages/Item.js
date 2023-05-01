@@ -1,19 +1,12 @@
 import {useState} from "react"
 import Button from 'react-bootstrap/Button';
+import {Link} from "react-router-dom";
+
+const Item = ({producto}) => {
 
 
+    const { id, title: nombre, price: precio, image } = producto;
 
-
-
-const Producto = (props) => {
-
-    //Mostramos en consola el parametro props que viene de productosContainer
-    console.log(props)
-    console.log(props.precio)
-  
-    //Traemos la precio del props
-    const precio = props.precio
-    const titulo = props.titulo
 
     //Creamos la variable valor con useState
     const [megusta, setValor] = useState(0)
@@ -29,16 +22,15 @@ const Producto = (props) => {
       setColor(!color)
     }
 
-
     if(!color){
         return (
             <div className="producto">
                 <section className={`${color}`}>
-                    <h1>{titulo}</h1>
-                    <h2>{`${color}`}</h2> 
-                    <p>{precio}</p>
-                    <p>{megusta}</p>
-                    <Button id="btn" onClick={handleClick}>Me gusta</Button>
+                    <img src={`${image}`} alt=""/>
+                    <h4>{nombre}</h4>
+                    <h3>${precio}</h3>
+                    <Button id="btn" ><Link to={`/item/${id}`}>Ver Detalle</Link></Button>
+                    <Button id="btn" onClick={handleClick}>{megusta}Me gusta</Button>
                 </section>
             </div>
         )    
@@ -46,11 +38,11 @@ const Producto = (props) => {
         return (
             <div className="producto">
                 <section className={`${color}`}>
-                <h1>{titulo}</h1>
-                <h2>{`${color}`}</h2>    
-                <p>{precio}</p>
-                <p>{megusta}</p>
-                <Button id="btn" onClick={handleClick}>Me gusta</Button>
+                <img src={`${image}`} alt=""/>
+                <h4>{nombre}</h4>
+                <h3>${precio}</h3>
+                <Button id="btn" ><Link to={`/item/${id}`}>Ver Detalle</Link></Button>
+                <Button id="btn" onClick={handleClick}>{megusta} - Me gusta</Button>
                 </section>
             </div>    
         )
@@ -58,4 +50,4 @@ const Producto = (props) => {
     
 }
 
-export default Producto
+export default Item

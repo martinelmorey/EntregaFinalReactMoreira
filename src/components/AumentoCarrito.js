@@ -1,6 +1,6 @@
 import useCounter from "../hooks/useCounter";
 
-const AppAumentoCarrito = () => {
+const AumentoCarrito = () => {
   
   //const resultado = useCounter()
   //const restar = resultado.restar 
@@ -10,12 +10,12 @@ const AppAumentoCarrito = () => {
   const {sumar, restar, valor} = useCounter()
 
   return (
-    <>
-      {valor}
-      <button onClick={sumar}>Sumar</button>
-      <button onClick={restar}>Restar</button>
-    </>
+    <div className="aumento-carrito">
+      <h5>Cantidad {valor}</h5>
+      <button onClick={sumar}>+</button>
+      <button onClick={restar}>-</button>
+    </div>
   );
 };
 
-export default AppAumentoCarrito;
+export default AumentoCarrito;

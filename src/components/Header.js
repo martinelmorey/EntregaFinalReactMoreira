@@ -1,4 +1,6 @@
 import NavBar from './NavBar';
+import { NavLink } from 'react-router-dom';
+
 
 
 
@@ -6,8 +8,7 @@ const Header = () => {
 
     return(
         <header className="header">
-            {/*<img src="/images/logo.svg" alt=""/>*/}
-            <img src="/images/rementerprises.png" className="logorem" alt="Rem Enterprises" />
+            <li> <NavLink to="/"><img src="/images/rementerprises.png" className="logorem" alt="Rem Enterprises" /></NavLink></li>
             <NavBar />
         </header>
     )

@@ -1,4 +1,4 @@
-a{
+.header a{
   text-decoration: none!important;
   color: #2d8e38!important;
 }
@@ -21,11 +21,16 @@ ul, li{
   bottom: 0px;
 }
 
+main{
+  margin: 10vh;
+}
+
 .header{
   display: flex;
   padding: 10px 50px;
   background-color: aliceblue;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header .logorem{
@@ -49,24 +54,60 @@ ul, li{
   align-items: center;
 }
     
+.header ul li a.active{
+  color: #0acc20!important;
+}
 
 body{
   margin: 0px;
 }
+
+.Lista-de-productos{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 #productos{
   display: flex;
 }
 
 .producto{
-  width: 300px;
+  width: 20vw;
+  height: 500px;
+  border-radius: 10px;
   text-align: center;
   background-color: white;
-  padding: 3%;
-  margin: 2%;
-  box-shadow: 2px 2px 20px #36363647;
+  padding: 0 1% 2% 1%;
+  margin: 1%;
+  box-shadow: 2px 2px 20px #36363617;
 }
-  
+
+.producto a {
+  color: #ffffff!important;
+  text-decoration: none;
+} 
+
+.producto button {
+  margin: 1% 2%;
+} 
+
+.producto .h4,.producto h4 {
+  font-size: 1rem;
+}
+
+.producto img{
+  max-width: 180px;
+  height: 300px;
+  padding: 2%;
+  margin-bottom: 5%;
+  object-fit: contain;
+}
+
+#bag{
+  display: inline-flex;
+  align-items: center;
+}
 
 .true{
   color:green;
@@ -74,4 +115,67 @@ body{
 
 .false{
   color: red;
+}
+
+
+
+
+
+.detalle-producto{
+  display: flex;
+}
+
+.contenedor-breadcrumb{
+  width: 100%;
+  background-color: aliceblue;
+  display: block;
+  color: #2d8e38;
+  padding: 2%;  
+  margin-bottom: 5%;
+}
+
+.contenedor-breadcrumb h1{
+  color: #2d8e38;
+}
+
+.detalle-producto img{
+  max-width: 30vw;
+}
+
+.aumento-carrito{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aumento-carrito h5{
+  margin-bottom:0px ;
+}
+
+#btn{
+  background-color: #2d8e38;
+  border: none;
+}
+
+.aumento-carrito button{
+  width: 30px;
+  height: 30px;
+  margin: 0 1%;
+  border: solid 2px #2d8e38 ;
+  color:#2d8e38;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.left-side{
+  width:50%
+}
+
+.right-side{
+  width:50%
+}
+
+.left-side img{
+  margin: 5%;
 }

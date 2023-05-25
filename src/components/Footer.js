@@ -1,8 +1,6 @@
-//refce atajo inicial
-
 const Footer = () => {
   return (
-    <footer id="footer"><h3>Footer</h3></footer>
+    <footer id="footer"><p>Rem Enterprises 2023</p></footer>
   )
 }
 

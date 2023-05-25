@@ -1,75 +1,46 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Mi App de E-commerce de React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta es una aplicación de e-commerce desarrollada con React. Proporciona una plataforma en la que los usuarios pueden explorar y agragar al carrito productos para un checkut final, tambien cuenta con una pagina de favoritos en la cual puedes agregar productos para luego enviarlos al carrtio.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- Catálogo de productos: Los usuarios pueden explorar una amplia gama de productos disponibles para su compra.
+- Carrito de compras: Los usuarios pueden agregar productos al carrito de compras y realizar el pago.
+- Favoritos
+- Se envian las ventas a Firebase
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Capturas de Pantalla
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Captura de Pantalla 1](/screenshots/screenshot1.png)
+![Captura de Pantalla 2](/screenshots/screenshot2.png)
 
-### `npm test`
+## Instalación
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clona este repositorio: git clone https://github.com/tu-usuario/tu-ecommerce.git
+2. Ve al directorio del proyecto: cd tu-ecommerce.
+3. Instala las dependencias: npm install.
+4. Inicia la aplicación: npm start o sudo npm start desde una mac.
 
-### `npm run build`
+## Tecnologías Utilizadas
+Enumera las tecnologías principales que utilizaste para desarrollar tu eCommerce. Por ejemplo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+HTML5
+CSS3
+JavaScript
+React.js
+Node.js
+Firebase
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Uso
+Proporciona ejemplos de código o instrucciones detalladas sobre cómo utilizar tu eCommerce. Si tienes un panel de administración o alguna funcionalidad específica, asegúrate de explicar cómo acceder y utilizar esas características.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Carpeta Backup EXTRA
+Incluye un componente boton llamado ImportarJSON.js que se puede utilizar en cualquier parte de la pagina que permite cargar la base de datos de Firebase.
 
-### `npm run eject`
+## Contribución
+Explica cómo otros desarrolladores pueden contribuir a tu proyecto. Puedes incluir información sobre la presentación de problemas (issues) o solicitudes de extracción (pull requests).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# PreEntrega2Moreira
-Pre entrega de Coderhouse / Martin Moreira
->>>>>>> cfea2d6a67348f751558323399fbd3b64f4b6b71
+## Datos personales
+Martin Moreira.
+Desarrollador Frontend.

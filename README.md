@@ -17,7 +17,7 @@ Esta es una aplicación de e-commerce desarrollada con React. Proporciona una pl
 
 ## Instalación
 
-1. Clona este repositorio: git clone https://github.com/tu-usuario/tu-ecommerce.git
+1. Clona este repositorio: git clone https://github.com/martinelmorey/EntregaFinalReactMoreira.git
 2. Ve al directorio del proyecto: cd tu-ecommerce.
 3. Instala las dependencias: npm install.
 4. Inicia la aplicación: npm start o sudo npm start desde una mac.

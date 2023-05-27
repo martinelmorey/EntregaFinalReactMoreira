@@ -14,28 +14,28 @@ Esta es una aplicación de e-commerce desarrollada con React. Proporciona una pl
 ## Capturas de Pantalla de la app
 
 Tienda
-![tienda](/screenshots/tienda.png)
+![tienda](public/images/screenshots/tienda.png)
 
 Almohadones
-![almohadones](/screenshots/almohadones.png)
+![almohadones](public/images/screenshots/almohadones.png)
 
 Producto
-![producto](/screenshots/producto.png)
+![producto](public/images/screenshots/producto.png)
 
 Favoritos
-![favoritos](/screenshots/favoritos.png)
+![favoritos](public/images/screenshots/favoritos.png)
 
 Carrito
-![carrito](/screenshots/carrito.png)
+![carrito](public/images/screenshots/carrito.png)
 
 Compra
-![carrito](/screenshots/compracompleta.png)
+![carrito](public/images/screenshots/compracompleta.png)
 
 Productos en Firestore Database
-![carrito](/screenshots/productosfirebase.png)
+![carrito](public/images/screenshots/productosfirebase.png)
 
 Ventas en Firestore Database
-![carrito](/screenshots/ventafirebase.png)
+![carrito](public/images/screenshots/ventafirebase.png)
 
 
 ## Instalación

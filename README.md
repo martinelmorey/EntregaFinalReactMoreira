@@ -28,6 +28,15 @@ Favoritos
 Carrito
 ![carrito](/screenshots/carrito.png)
 
+Compra
+![carrito](/screenshots/compracompleta.png)
+
+Productos en Firestore Database
+![carrito](/screenshots/productosfirebase.png)
+
+Ventas en Firestore Database
+![carrito](/screenshots/ventafirebase.png)
+
 
 ## Instalación
 
